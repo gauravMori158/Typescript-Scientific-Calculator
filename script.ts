@@ -96,8 +96,7 @@ class Calculator {
     let computation;
     let prev = parseFloat(this.previousOperand);
     let current = parseFloat(this.currentOperand);
-    //if (isNaN(prev) && isNaN(current)) return;
-
+     
     if (isNaN(prev)) {
       prev = 0;
     }
@@ -398,9 +397,10 @@ class Calculator {
     (<HTMLElement>(<any>this.dataCurrentText)).innerText = `${num}`;
   }
   displayPrev() {
+     
     this.previousOperand = this.currentOperand;
 
-    this.currentOperand = "";
+    this.currentOperand = ""; 
   }
 }
 
@@ -485,7 +485,7 @@ operationButton.forEach((button: Element) => {
 equalsButton.addEventListener("click", () => {
   calculator.compute();
   calculator.updateDisplay();
-  calculator.clearPrev();
+   calculator.clearPrev();
   calculator.displayPrev();
 });
 operationButtonMs.addEventListener("click", () => {

@@ -98,7 +98,6 @@ class Calculator {
         let computation;
         let prev = parseFloat(this.previousOperand);
         let current = parseFloat(this.currentOperand);
-        //if (isNaN(prev) && isNaN(current)) return;
         if (isNaN(prev)) {
             prev = 0;
         }
