@@ -1,0 +1,196 @@
+<div class="main">
+         <div class="flex-container">
+
+         </div>
+         <div class="flex-container">
+
+         </div>
+         <div class="flex-container">
+
+         </div>
+         <div class="flex-container">
+
+         </div>
+         <div class="flex-container" >
+            <div id="row" style="display: flex;flex-direction: row;">
+                <div>
+                    <button >1</button>
+                </div>
+                
+            </div>
+            
+         </div>
+
+         <div class="container">
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="row">
+              <div class="col-md-8">.col-md-8</div>
+              <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+            </div>
+          
+            <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+            <div class="row">
+              <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+              <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+              <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+            </div>
+          
+            <!-- Columns are always 50% wide, on mobile and desktop -->
+            <div class="row">
+              <div class="col-6">.col-6</div>
+              <div class="col-6">.col-6</div>
+            </div>
+          </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row   row-cols-lg-5 p-1 ">
+          <div class="col">
+            <div class="p-3 border bg-light"><button>1</button></div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div> </div>
+          <div class="row   row-cols-lg-5 p-1  ">
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+          <div class="col">
+            <div class="p-3 border bg-light">Row column</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="rowBlock" style="flex-direction:column;">
+
+      <div style=" display:flex;flex-direction: row;gap: 2px;">
+
+          <div>
+              <button data-operation onclick="displayNone()">sin</button>
+          </div>
+          <div>
+              <button data-operation onclick="displayNone()">cos</button>
+          </div>
+          <div>
+              <button data-operation onclick="displayNone()">tan</button>
+          </div>
+
+      </div>
+      <div style=" display:flex; flex-direction: row;gap: 2px;">
+
+          <div>
+              <button data-operation onclick="displayNone()">csc</button>
+          </div>
+          <div>
+              <button data-operation onclick="displayNone()">sec</button>
+          </div>
+          <div>
+              <button data-operation onclick="displayNone()">cot</button>
+          </div>
+
+      </div>
+  </div>
+
+
+
+
+    <img src="https://img.icons8.com/ios-glyphs/30/null/frequency-f.png" style="height: 20px; "
+                             alt="icon" />
+                        <span style="font-size: small;">Function <i class='fas fa-angle-down'></i></span>
+
+
+
+
+
+
+
+
+
+                        <div>
+                          <div>
+                              <div onclick="displayTrigonometry()"> <img
+                                      src="https://img.icons8.com/ios-glyphs/30/null/trigonometry.png " alt="icon"
+                                      style="height: 20px;" />
+                                  <span style="font-size: small;">Trigonometry <i class='fas fa-angle-down'></i></span>
+                              </div>
+                              <div id="rowBlock" style="flex-direction:column;">
+  
+                                  <div style=" display:flex;flex-direction: row;gap: 2px;">
+  
+                                      <div>
+                                          <button data-operation onclick="displayNone()">sin</button>
+                                      </div>
+                                      <div>
+                                          <button data-operation onclick="displayNone()">cos</button>
+                                      </div>
+                                      <div>
+                                          <button data-operation onclick="displayNone()">tan</button>
+                                      </div>
+  
+                                  </div>
+                                  <div style=" display:flex; flex-direction: row;gap: 2px;">
+  
+                                      <div>
+                                          <button data-operation onclick="displayNone()">csc</button>
+                                      </div>
+                                      <div>
+                                          <button data-operation onclick="displayNone()">sec</button>
+                                      </div>
+                                      <div>
+                                          <button data-operation onclick="displayNone()">cot</button>
+                                      </div>
+  
+                                  </div>
+                              </div>
+  
+                          </div>
+  
+                      </div>
+
+
+
+
+                      <div class="col d-grid col-6 "     >
+                        <button id="drp" class="dropdown-toggle" data-bs-toggle="dropdown"  ><img src="https://img.icons8.com/ios-glyphs/30/null/frequency-f.png" style="height: 20px; "
+                            alt="icon" />
+                            <i class="fa-regular fa-ruler-triangle"></i> <span style="font-weight: normal;">
+                            Function</span>
+                         </button>
+                        <ul class="dropdown-menu dropdown-menu">
+                            <ul>
+                                <button data-operation  >sin</button>
+                                <button>2</button>
+                                <button>3</button>
+                            </ul>
+                            <ul>
+                                <button>4</button>
+                               <button>5</button>
+                                <button>6</button>
+                            </ul>
+                        </ul>
+                    </div> 
